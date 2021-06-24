@@ -267,10 +267,10 @@ class EventStreams {
 			}
 		}
 
-		if ( ! $at_least_one ) {
-			$this->emitOneTimeError( __( 'No chapters were selected for import.', 'pressbooks' ) );
-			return;
-		}
+//		if ( ! $at_least_one ) {
+//			$this->emitOneTimeError( __( 'No chapters were selected for import.', 'pressbooks' ) );
+//			return;
+//		}
 
 		$current_import = get_option( 'pressbooks_current_import' );
 		if ( is_array( $current_import ) ) {
